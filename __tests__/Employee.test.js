@@ -17,4 +17,8 @@ test('test to get the id from the getId() method', () => {
 
 test('test to get the email from the getEmail() method', () => {
     expect(employee.getEmail()).toBe('taivonedwards1@gmail.com');
-})
+});
+
+test('test to get role from the getRole() method', () => {
+    expect(employee.getRole()).toBe('Employee');
+});
